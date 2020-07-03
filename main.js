@@ -46,10 +46,10 @@ const userEmail = users
 printKata(2, userEmail)
 
 //kata3
-const findcompany1 = users
+const findCompany1 = users
     .some(user => user.company === 'OVATION')
 
-printKata(3, findcompany1)
+printKata(3, findCompany1)
 
 //kata4
 const firstuserOver38 = users
@@ -64,10 +64,10 @@ const activeOver38 = users
 printKata(5, activeOver38)
 
 //kata6
-const gotbank = users
+const gotBank = users
     .filter(user => user.company === "ZENCO")
     .map(user => user.balance)
-printKata(6, gotbank)
+printKata(6, gotBank)
 
 //kata7
 const agefugiatTag = users

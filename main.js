@@ -54,7 +54,7 @@ printKata(3, findCompany1)
 //kata4
 const firstuserOver38 = users
     .find(user => user.age > "38")
-printKata(4, firstuserOver38.name)
+printKata(4, firstuserOver38) //.name also is ok to put in
 
 //kata5
 
